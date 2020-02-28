@@ -118,15 +118,6 @@ print(nome)
 print(nome.count('E'))
 # O acesso a elementos de uma tupla tamb~em é semelhante a de uma lista
 
-print(meses[5])
-
-# Iterar com while
-i = 0
-while i < len(meses):
-   print(meses[i])
-   i = i + 1
-"""
-
 # Dicas na utilização de tuplas
 
 # Devemos utilizar SEMPRE que não precisarmos modificar os dados contidos em uma coleção
@@ -135,4 +126,46 @@ while i < len(meses):
 
 meses = ('Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro')
 
-print(meses)
+# Slicing
+
+# tupla[inicio:fim:passo]
+print(meses[5:9])
+
+print(meses[5])
+
+# Iterar com while
+i = 0
+while i < len(meses):
+   print(meses[i])
+   i = i + 1
+
+# Verificamos em qual indice um elemento está na tupla
+
+print(meses.index('Junho'))
+
+# OBS: Caso o elemento não exista, será gerado ValueError.
+
+
+# Por que utilizar tuplas
+
+# - Tuplas são mais rápidas do que listas
+# - Tuplas deixam seu código mais seguro*
+
+# * Isso porque trabalhar com elementos imutáveis traz segurança para o código.
+
+# Copiando uma tupla para outra
+
+tupla = (1, 2, 3)
+print(tupla)
+
+nova = tupla # Na tupla não tempos o ploblema de Shallow Copy
+
+print(nova)
+print(tupla)
+
+outra = (4, 5, 6)
+nova = nova + outra
+
+print(nova)
+print(tupla)
+"""
