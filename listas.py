@@ -92,6 +92,7 @@ lista5.pop(5)
 print(lista5)
 
 # Podemos remover todos os elementos (zerar a lista)
+print(lista5)
 lista5.clear()
 print(lista5)
 
@@ -268,5 +269,75 @@ print(nomes)
 nomes = ['Luiz', 'Eduardo']
 nomes.reverse()
 print(nomes)
+
+# Soma*, Valor Máximo*, Valor Mínimo*, Tamanho
+
+# * Se os valores forem todos inteiros ou reais
+
+lista = [1, 2, 3, 4, 5, 6]
+
+print(sum(lista))   # Soma
+print(max(lista))   # máximo valor
+print(min(lista))   # mínimoo valor
+print(len(lista))   # tamanho da lista
+
+# Transformar uma lista em tupla
+lista = [1, 2, 3, 4, 5, 6]
+print(lista)
+print(type(lista))
+
+tupla = tuple(lista)
+print(tupla)
+print(type(tupla))
+
+
+# Desmpacotamento de listas
+
+lista = [1, 2, 3]
+num1, num2, num3, num4 = lista
+
+print(num1)
+print(num2)
+print(num3)
+
+# OBS: Se tivermos mais elementos para desempacotar do que variáveis para receber os valores, teremos ValueError
+
+# Copiando uma lista para outra (Shallow Copy e Deep Copy)
+# Forma 1 - Deep Copy
+
+lista = [1, 2, 3]
+print(lista)
+
+nova = lista.copy()
+
+print(nova)
+
+nova.append(4)
+
+print(lista)
+print(nova)
+
+# Vaja que ao utilizarmos lista.copy() copiamos os dados da lista para uma nova lista, mas ela
+# ficaram totalmente independentes ou seja, modificando uma lista, não afeta a outros. Isso em Python
+# é chamado de Deep Copy (cópia profunda)
+
 """
+
+# Forma 2 - Shallow Copy
+
+lista = [1, 2, 3]
+print(lista)
+
+nova = lista # cópia
+
+print(nova)
+
+nova.append(4)
+
+print(lista)
+print(nova)
+
+# Vaja que utilizamos a cópia via atribuição e copiamos os dados da lista para a nova lista, mas
+# após realizar modificações em uma das listas, essa modificação se refletiu em ambas as listas.
+# Isso em Python é chamado de Shallow Copy.
 
