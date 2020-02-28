@@ -5,10 +5,10 @@ Nesse Repositorio do GitHub esta meus arquivos de estudo sobre Python na versão
 ## Usage
 
 ```
-Variáveis e Tipos de Dados
-Estruturas Lógicas e Condicionais
-Estruturas de Repetição
-Coleções [Listas, Tuplas, ...]
+Variáveis e Tipos de Dados ✅
+Estruturas Lógicas e Condicionais ✅
+Estruturas de Repetição ✅
+Coleções [Listas, Tuplas, ...] 
 Funções
 Comprehensions
 Expressões Lambdas e Funções Integradas
