@@ -8,7 +8,7 @@ Nesse Repositorio do GitHub esta meus arquivos de estudo sobre Python na versão
 Variáveis e Tipos de Dados ✅
 Estruturas Lógicas e Condicionais ✅
 Estruturas de Repetição ✅
-Coleções [Listas, Tuplas, ...] 
+Coleções [Listas, Tuplas, ...] ✅
 Funções
 Comprehensions
 Expressões Lambdas e Funções Integradas
