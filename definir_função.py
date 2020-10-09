@@ -45,3 +45,17 @@ print(curso)
 
 #print(help(print))
 # DRY - Não repita você mesmo
+
+"""
+Em Python, a forma geral de definir uma função é:
+
+def nome_da_função(parametros_de_entrada)
+    bloco_da_função
+
+Onde:
+
+nome_da_função -> SEMPRE, com letra minúscula, e se for nome composto, separare por underline (Snake case);
+parametros_de_entrada -> Opcional, onde tede mais de um, cada um separado por virgula (','), podendo ser opcionais ou não;
+bloco_da_função -> Também chamado de corpo da função ou implementação, é onde o processamento da função acontece;
+Nesse bloco, pode ter ou não retorno da função
+"""
